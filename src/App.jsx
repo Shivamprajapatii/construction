@@ -1,16 +1,26 @@
-import React, from 'react'
-import './App.css'
+import React from 'react'
+import Header from './sections/HEader'
+import Hero from './sections/Hero'
+import Portfolio from './sections/Portfolio'
+import About from './sections/about'
+import Services from './sections/Services'
+import Working from './sections/Working'
+import Testimonials from './sections/Testimonials'
+import Contact from './sections/Contact'
+import Footer from './sections/Footer'
 
-function App() {
-
+export default function App() {
   return (
     <>
-      
-      <h1 className="text-3xl font-bold underline">
-        Hello world!
-  </h1>
+       < Header />
+       < Hero />
+       < About />
+       < Services />
+       < Portfolio />
+       < Working />
+       < Testimonials />
+       < Contact />
+       < Footer />
     </>
   )
 }
-
-export default App
